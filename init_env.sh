@@ -12,7 +12,4 @@ if [ -f "$HOME/.vimrc" ]; then
     echo "create new vimrc..."
     ln -s ~/.vim/vimrc ~/.vimrc
 
-    git submodule init
-    git submodule update
-
-    vi +BundleInstall! +qall
+    vi +PluginInstall! +qall
