@@ -1,5 +1,5 @@
 # git_config
-my vimrc
+my vimrc and gitconfig
 
 # how to use 
-clone to .vim/ run init_env.sh
+clone to home run init_env.sh
