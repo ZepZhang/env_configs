@@ -28,8 +28,9 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 "key binding
-map <F2> :NERDTreeToggle<CR>
-autocmd vimenter * NERDTree
-"when all files closed, auto quit NerdTree
+map <C-n> :NERDTreeToggle<CR>
+"auto open nerd tree when open files
+"autocmd vimenter * NERDTree
+"when all files closed, auto quit NERDTree
 autocmd bufenter * if(winnr('$') == 1 && exists("b:NERDTree")) | q | endif
 

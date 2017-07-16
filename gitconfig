@@ -1,0 +1,6 @@
+#git config 
+[user]
+    name = Zep Zhang
+    email = zhangchilyg@gmail.com 
+[github]
+    user = zhangchilyg@gmail.com
