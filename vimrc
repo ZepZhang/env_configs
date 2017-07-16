@@ -3,9 +3,17 @@
 "2017/7/15
 
 "basic settings
-set nu
+set number 			      "show line numbers
 set mouse=a
 syntax on
+"colorscheme onedark
+set autoread 	              "detect when a file is changed
+
+"switch cursor to line when in insert mode, and block when not 
+"only works under gui 
+set guicursor=n-v-c:block,i-ci-ve:ver25,r-cr:hor20,o:hor50
+  \,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor
+  \,sm:block-blinkwait175-blinkoff150-blinkon175
 
 "vundle
 set nocompatible              " required
